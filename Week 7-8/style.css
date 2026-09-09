@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#searchForm {
+  margin-bottom: 10px;
+}
+
+#usernameInput {
+  padding: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+#statusMessage {
+  color: gray;
+  font-style: italic;
+}
+
+#profileCard {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px auto 0 auto;
+  width: 300px;
+  text-align: left;
+}
+
+#profileCard img {
+  width: 60px;
+}
+
+.hidden {
+  display: none;
+}
+
+#recentList {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+#recentList li {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
