@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub User Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>GitHub User Finder</h1>
+  <p>Type github username and search</p>
+
+  <form id="searchForm">
+    <input type="text" id="usernameInput" placeholder="e.g. octocat">
+    <button type="submit">Search</button>
+  </form>
+
+  <p id="statusMessage"></p>
+
+  <div id="profileCard" class="hidden">
+  </div>
+
+  <hr>
+
+  <h3>Recent Searches</h3>
+  <button id="clearHistory">Clear history</button>
+  <ul id="recentList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
